@@ -1,0 +1,31 @@
+{
+  "name": "g-koa-api",
+  "version": "1.0.0",
+  "description": "web api based on koa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gainorloss/g-koa-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webapi",
+    "koa"
+  ],
+  "author": "gainorloss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gainorloss/g-koa-api/issues"
+  },
+  "homepage": "https://github.com/gainorloss/g-koa-api#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.7.0",
+    "koa-cors": "0.0.16",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^7.4.0"
+  }
+}
